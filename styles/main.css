@@ -54,4 +54,17 @@ header .social-nav {
   -ms-grid-column-align: end;
       justify-self: end;
 }
+
+.title-container {
+  text-align: center;
+}
+
+.title-container .main-title {
+  font-size: 68px;
+  margin-bottom: 12px;
+}
+
+.title-container .motto {
+  font-size: 16px;
+}
 /*# sourceMappingURL=main.css.map */
