@@ -1,0 +1,57 @@
+/* CSS Reset */
+html, body, div, span, applet, object, iframe, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+body ol, body ul {
+  list-style: none;
+}
+
+body blockquote, body q {
+  quotes: none;
+}
+
+body blockquote:before, body blockquote:after, body q:before, body q:after {
+  content: '';
+  content: none;
+}
+
+body table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+header {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  padding: 10px;
+}
+
+header nav li {
+  display: inline-block;
+  padding: 5px 10px;
+}
+
+header nav li a {
+  text-decoration: none;
+  color: #000;
+}
+
+header .social-nav {
+  -ms-grid-column-align: end;
+      justify-self: end;
+}
+/*# sourceMappingURL=main.css.map */
