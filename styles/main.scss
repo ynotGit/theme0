@@ -134,6 +134,7 @@ header {
 
 .title-container {
     text-align: center;
+    letter-spacing: 4px;
 
     .main-title {
         font-size: 68px;
@@ -258,10 +259,11 @@ header {
     }
 
     .welcome-img {
-        background-image: url(../img/tile0.png);
+        background-image: url(../img/welcome.png);
         background-size: cover;
         background-position: center;
         background-repeat: none;
+        box-shadow: 1px 1px 1px grey;
     }
 
 
@@ -393,5 +395,103 @@ header {
         }
     }
 }
+
+// Page Nav 
+
+.page-nav {
+    padding: 30px 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 40px;
+    text-align: center;
+    
+    .page-nav-content {
+
+        h3 {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        span {
+
+            letter-spacing: 5px;
+            
+            i {
+                color: black;
+                margin-right: 5px;
+                padding-top: 10px;
+            }
+        }
+
+        select {
+            width: 100%;
+            padding: 8px;
+            background-color: white;
+            border: thin solid green;
+            display: inline-block;
+            font: inherit;
+            line-height: 24px;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+        }  
+
+        .drop-down {
+            background-image:
+                linear-gradient(45deg, transparent 50%, gray 50%),
+                linear-gradient(135deg, gray 50%, transparent 50%),
+                linear-gradient(to right, #ccc, #ccc);
+            background-position:
+                calc(100% - 20px) calc(16px + 2px),
+                calc(100% - 15px) calc(16px + 2px),
+                calc(100% - 40px) 8px;
+            background-size:
+                5px 5px,
+                5px 5px,
+                1px 24px;
+            background-repeat: no-repeat;
+    
+            &:focus {
+                background-image:
+                    linear-gradient(45deg, green 50%, transparent 50%),
+                    linear-gradient(135deg, transparent 50%, green 50%),
+                    linear-gradient(to right, #ccc, #ccc);
+                background-position:
+                    calc(100% - 15px) 16px,
+                    calc(100% - 20px) 16px,
+                    calc(100% - 40px) 8em;
+                background-size:
+                    5px 5px,
+                    5px 5px,
+                    1px 24px;
+                background-repeat: no-repeat;
+                    border-color: green;
+                    outline: 0;
+            }
+        }
+    }
+
+    .page-social-nav {
+            
+        ul {
+            padding-top: 10px;
+
+            li {
+                display: inline-block;
+                padding: 0 5px;
+    
+                i {
+                    color: black;
+                    font-size: 20px;
+                    padding: 0 10px;
+                }
+            }  
+        }
+
+    }
+}
+
 
 
