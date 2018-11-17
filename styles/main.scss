@@ -12,9 +12,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     display: block;
 }
 
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 // General
 body {
     line-height: 1;
+    font-family: 'Montserrat', sans-serif;
 
     ol, ul {
         list-style: none;
