@@ -396,7 +396,7 @@ header {
     }
 }
 
-// Page Nav 
+// Footer
 
 .page-nav {
     padding: 30px 60px;
@@ -415,7 +415,7 @@ header {
         span {
 
             letter-spacing: 5px;
-            
+
             i {
                 color: black;
                 margin-right: 5px;
@@ -467,8 +467,8 @@ header {
                     5px 5px,
                     1px 24px;
                 background-repeat: no-repeat;
-                    border-color: green;
-                    outline: 0;
+                border-color: green;
+                outline: 0;
             }
         }
     }
@@ -489,7 +489,37 @@ header {
                 }
             }  
         }
+    }
+}
 
+//Social Media data bar
+
+.social-media-data-bar {
+    height: 30px;
+    background-color: #F8F8F8; 
+    padding: 15px 40px 0 40px;
+    text-transform: uppercase;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    
+    span {
+        letter-spacing: 2px;
+
+        i {
+            margin-right: 5px;
+        }
+    }
+}
+
+.copyright {
+    text-align: center;
+    background-color: #F8F8F8; 
+
+    p {
+        border-top: 1px solid black;
+        margin: 0;
+        padding: 20px 0;
     }
 }
 

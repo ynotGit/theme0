@@ -466,4 +466,35 @@ header .social-nav {
   font-size: 20px;
   padding: 0 10px;
 }
+
+.social-media-data-bar {
+  height: 30px;
+  background-color: #F8F8F8;
+  padding: 15px 40px 0 40px;
+  text-transform: uppercase;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  text-align: center;
+}
+
+.social-media-data-bar span {
+  letter-spacing: 2px;
+}
+
+.social-media-data-bar span i {
+  margin-right: 5px;
+}
+
+.copyright {
+  text-align: center;
+  background-color: #F8F8F8;
+}
+
+.copyright p {
+  border-top: 1px solid black;
+  margin: 0;
+  padding: 20px 0;
+}
 /*# sourceMappingURL=main.css.map */
